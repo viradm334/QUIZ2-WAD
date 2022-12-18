@@ -1,6 +1,7 @@
 <?php
 
 include 'config/connector.php';
+include 'config/loginAdmin.php';
 ?>
 
 <!DOCTYPE html>

@@ -72,13 +72,9 @@ include 'config/addAppointment.php';
 
                         <div class="mb-3 ">
                             <label for="dateinput" class="form-label">Book Date</label>
-                            <input type="date" class="form-control" name="date" id="dateinput">
+                            <input type="datetime-local" class="form-control" name="waktu" id="dateinput">
                         </div>
 
-                        <div class="mb-3 ">
-                            <label for="time" class="form-label">Time</label>
-                            <input type="time" class="form-control" name="checkin" id="time">
-                        </div>
 
                         <div class="mb-3 ">
                           <label for="phone" class="form-label">Phone Number</label>
@@ -87,7 +83,7 @@ include 'config/addAppointment.php';
 
 
                         <div class="d-grid gap-2 mb-3">
-                            <button class="btn btn-success">Book</button>
+                            <button class="btn btn-success" value="simpan">Book</button>
                         </div>
                         
 

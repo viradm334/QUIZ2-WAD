@@ -58,28 +58,12 @@ include 'config/connector.php';
               <h1 class="modal-title fs-5" id="exampleModalLabel">Log in</h1>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body">
-              <div class="form">
-                <div class="form-element mb-1">
-                  <label for="email">Email</label>
-                  <input type="text" id="email" placeholder="Email">
-                </div>
-                <div class="form-element">
-                  <label for="password">Password</label>
-                  <input type="password" id="password" placeholder="Password">
-                </div>
-                <div class="form-element">
-                  <input type="checkbox" id="remember-me">
-                  <label for="remember-me">Remember me</label>
-                </div>
-                <div class="form-element">
-                  <a href="#">Forgot password?</a>
-                </div>
-              </div>
+            <div class="modal-body" style="justify-content: center; align-items:center">
+            <a href="guestLogin.php" class="btn btn-primary">Log In as Customer</a>
+            <a href="adminLogin.php" class="btn btn-warning">Log In as Admin</a>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Log In</button>
             </div>
           </div>
         </div>

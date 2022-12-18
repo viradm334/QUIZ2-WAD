@@ -1,6 +1,7 @@
 <?php
 
 include 'config/connector.php';
+include 'config/loginGuest.php';
 ?>
 
 <!DOCTYPE html>

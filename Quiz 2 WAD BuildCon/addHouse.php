@@ -27,6 +27,7 @@ include 'config/addHome.php';
                     Add a New House
                 </p>
             </div>
+
             <div class="col-md-9">
                 <form class="" action="" enctype="multipart/form-data" method="POST">
                     <div class="mb-3">
@@ -36,12 +37,7 @@ include 'config/addHome.php';
 
                     <div class="mb-3">
                         <label for="nameinput" class="form-label">Harga</label>
-                        <input type="text" class="form-control" name="harga" id="harga">
-                    </div>
-
-                    <div class="mb-3 ">
-                        <label for="dateinput" class="form-label">Tanggal Beli</label>
-                        <input type="date" class="form-control" name="tanggalbeli" id="tanggalbeli">
+                        <input type="number" class="form-control" name="harga" id="harga">
                     </div>
 
                     <div class="mb-3 ">
@@ -60,7 +56,7 @@ include 'config/addHome.php';
                         <div class="col">
                             <label for="phone" class="form-label">Foto Interior</label>
                         </div>
-                        <input type="file" name="interior" id="interior">
+                        <input type="file" name="foto_interior[]" multiple id="interior">
                     </div>
 
                     <div class="mb-3">
